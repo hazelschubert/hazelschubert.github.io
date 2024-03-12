@@ -229,6 +229,7 @@ margin-bottom: 15px;
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(phone-background.jpg);
+        background-size: cover;
     }
     .header-text{
         margin-top: 60%;
