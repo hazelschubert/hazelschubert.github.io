@@ -226,6 +226,11 @@ margin-bottom: 15px;
     transform: translateY(-10px);
 }
 
+#latest-video iframe{
+    border-radius: 5px;
+    justify-self: center;
+}
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(phone-background.jpg);
