@@ -110,8 +110,12 @@ text-align: center;
     margin: 100px;
     float: right;
 }
+.form{
+    margin: 0 auto;
+    align-items: center;
+}
 .form iframe{
-    max-width: 100%;
+    display: block;
     margin: auto;
 }
 hr{
