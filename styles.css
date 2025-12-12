@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'poppins', sans-serif;
+}
+.mainsection{
+    
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    
+}
+.mainsection a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.mainsection a:hover{
+color: crimson;
+}
+.mainsection img{
+    width: 300px;
+    border-radius: 300px;
+    box-shadow: 0px 0px 10px 5px crimson, 0 4px 20px 0 crimson;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text{
+    box-shadow: 0px 0px 10px 5px crimson, 0 4px 20px 0 crimson;
+    background-color: rgb(50, 50, 50);
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 30px;
+    color: white;
+}
+.text h1{
+    color: crimson;
+}
+nav {
+    background: #222;
+    padding: 15px 0;
+    box-shadow: 0px 0px 10px 5px crimson;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    font-family: 'poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: crimson;
+}
+.aboutsection{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.aboutsection h1{
+    color: crimson;
+    font-size: 50px;
+    box-shadow: 0 10px 10px -5px crimson;
+    width: fit-content;
+    margin: 100px auto;
+}
+.abouttext p{
+    width: 50%;
+}
+.abouttext{
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 5px crimson, 0 4px 20px 0 crimson;
+    border-radius: 50px;
+    padding: 30px;
+}
+.aboutsection img{
+    border-radius: 50px;
+    width: 50%;
+}
+.projects h1{
+    color: crimson;
+    font-size: 50px;
+    box-shadow: 0 10px 10px -5px crimson;
+    width: fit-content;
+    margin: 100px auto;
+}
+.projects{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.project{
+    color: white;
+    margin: auto;
+}
+.project h2{
+    color: crimson;
+    font-size: 40px;
+}
+.project iframe{
+    box-shadow: 0px 0px 10px 5px crimson, 0 4px 20px 0 crimson;
+}
+.contact{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+.contact h1{
+    color: crimson;
+    font-size: 50px;
+    box-shadow: 0 10px 10px -5px crimson;
+    width: fit-content;
+    margin: 100px auto;
+}
+.contact iframe{
+    margin: auto;
+}
