@@ -71,7 +71,7 @@ body{
     margin: auto;
         width: 600px;
         max-width: 95vw;
-        height: 600px;
+        height: 400px;
         overflow: hidden;
         border-radius: 18px;
         position: relative;
@@ -106,3 +106,4 @@ body{
     font-size: 20px;
 
 }
+
