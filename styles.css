@@ -69,7 +69,7 @@ body{
 }
 .carousel {
     margin: auto;
-        width: 400px;
+        width: 600px;
         max-width: 95vw;
         height: 600px;
         overflow: hidden;
@@ -104,4 +104,5 @@ body{
 }
 .contact p{
     font-size: 20px;
+
 }
